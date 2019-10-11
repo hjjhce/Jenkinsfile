@@ -8,6 +8,7 @@ pipeline {
                 sh '''
                 	echo 'Multiline shell steps works too'
                 	ls -alh
+                	echo 'only test'
                 '''
             }
         }
